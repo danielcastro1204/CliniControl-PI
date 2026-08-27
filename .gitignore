@@ -1,0 +1,27 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Java / Maven
+clinicontrolbackend/target/
+
+# Node / Vite
+clinicontrolmanagement/node_modules/
+clinicontrolmanagement/dist/
+clinicontrolmanagement/.vite/
+
+# Logs
+*.log
+logs/
+
+# IDE and operating system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
