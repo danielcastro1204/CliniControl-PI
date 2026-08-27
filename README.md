@@ -8,14 +8,6 @@
 
 Inventario clínico · Pacientes y atenciones · Generación de RIPS · Autenticación por roles
 
-[![Java](https://img.shields.io/badge/Java-25-ED8B00?logo=openjdk&logoColor=white)](#)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5-6DB33F?logo=springboot&logoColor=white)](#)
-[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](#)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](#)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)](#)
-[![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)](#)
-[![License](https://img.shields.io/badge/status-MVP%20académico-yellow)](#)
-
 </div>
 
 ---
@@ -191,7 +183,6 @@ Las migraciones SQL (`001_initial_schema.sql`, `002_add_indexes.sql`) se ejecuta
 ```
 CliniControl/
 ├── docker-compose.yml              # Orquesta db + backend + frontend
-├── OPTIMIZACIONES.md               # Historial de mejoras de performance aplicadas
 ├── clinicontrolbackend/            # API REST — Spring Boot
 │   ├── src/main/java/com/clinicontrol/
 │   └── src/main/resources/db/migration/
